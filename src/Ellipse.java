@@ -12,7 +12,7 @@ public class Ellipse extends Shape {
         this.b=b;
     }
     @Override
-    //This returns the area of the ellipse
+    //This returns the area of the ellipse.
     public double getArea()
     {
         return Math.PI*a*b;
