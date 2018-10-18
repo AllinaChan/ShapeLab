@@ -12,13 +12,17 @@ public class Ellipse extends Shape {
         this.b=b;
     }
     @Override
-    //This returns the area of the ellipse.
+    /**
+     * @returns The area of the ellipse
+     */
     public double getArea()
     {
         return Math.PI*a*b;
     }
     @Override
-    //Many ways to approximate the perimeter of a ellipse, but this one was more code friendly
+    /**
+     * @return Many ways to approximate the perimeter of a ellipse, but this one was more code friendly
+     */
     public double getPerimeter()
     {
         double firstPerimeter= ((a*a)+(b*b))*0.5;

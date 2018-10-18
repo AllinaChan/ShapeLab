@@ -11,12 +11,17 @@ public class Circle extends Shape
         this.radius = radius;
     }
     @Override
-    //This returns the area of the circle
+    /**
+     * @return The area of the circle
+     */
     public double getArea()
     {
         return Math.PI* radius*radius;
     }
-   //This returns the perimeter (circumference) of the circle
+
+    /**
+     * @return The area of the circle
+     */
     @Override
     public double getPerimeter()
     {
