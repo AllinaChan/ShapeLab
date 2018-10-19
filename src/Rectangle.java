@@ -2,6 +2,7 @@ public class Rectangle extends Shape {
     private int height;
     private int width;
 
+
     /**
      *
      * @param height is the height of the rectangle.
@@ -11,6 +12,12 @@ public class Rectangle extends Shape {
         super("Rectangle");
         this.height = height;
         this.width = width;
+    }
+    public Rectangle (int side)
+    {
+        super ("Square");
+        this.height = side;
+        this.width = side;
     }
 
     /**
