@@ -1,4 +1,5 @@
 public class Runner {
+    //Samuel, Allen, Abdul Arafi
     public static void main(String[] args) {
         Shape shape1 = new Rectangle(10, 5);
         Shape shape2 = new ETriangle(5);
